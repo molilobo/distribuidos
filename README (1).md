@@ -200,34 +200,9 @@ Para usar la demo, descomentar `Demo()` en la función `main()`.
 - **Integridad Referencial**: Eliminar una entidad actualiza referencias en otras entidades
 - **Datos en Tiempo de Ejecución**: Los datos se almacenan en memoria durante la sesión (no persisten entre ejecuciones)
 
-## 🔮 Mejoras Futuras
 
-- [ ] Persistencia en base de datos (SQL/NoSQL)
-- [ ] API REST para acceso remoto
-- [ ] Interfaz gráfica (GUI)
-- [ ] Validación de entrada más robusta
-- [ ] Sistema de reportes y estadísticas
-- [ ] Autenticación y control de acceso
-- [ ] Búsqueda y filtrado avanzado
-- [ ] Exportar datos a PDF/Excel
-
-## 📄 Licencia
-
-Este proyecto está disponible bajo licencia MIT.
 
 ## 👤 Autor
 
-Desarrollado como sistema de gestión para talleres mecánicos.
+Raul Molina Looez.
 
-## 🤝 Contribuciones
-
-Las contribuciones son bienvenidas. Por favor:
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
-## ❓ Soporte
-
-Para reportar bugs o sugerencias, abra un issue en el repositorio.
