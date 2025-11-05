@@ -171,20 +171,7 @@ El código incluye una función `Demo()` que precarga datos de ejemplo:
 
 Para usar la demo, descomentar `Demo()` en la función `main()`.
 
-## Métodos Principales
 
-### Cliente
-- `CrearVehiculo()`: Añade vehículo al cliente
-- `VerVehiculos()`: Lista vehículos del cliente
-
-### Funciones Globales
-- `AsignarVehiculoTaller()`: Asigna vehículo a una plaza
-- `ListarClientesEnTaller()`: Muestra clientes con vehículos en reparación
-- `ModificarCliente()`: Edita datos del cliente
-- `ModificarVehiculo()`: Edita datos del vehículo
-- `ModificarIncidencia()`: Edita datos de incidencia
-- `ModificarMecanico()`: Edita datos del mecánico
-- `DarAltaBajaMecanico()`: Cambia estado activo/inactivo
 ## Autor
 
 Raul Molina Looez.
