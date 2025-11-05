@@ -2,7 +2,7 @@
 
 Un sistema completo de gestión escrito en **Go** para administrar operaciones de talleres mecánicos, incluyendo gestión de clientes, vehículos, incidencias y mecánicos.
 
-## 🎯 Características Principales
+## Características Principales
 
 - **Gestión de Clientes**: Crear, modificar y eliminar clientes con sus datos de contacto
 - **Gestión de Vehículos**: Administrar vehículos asociados a clientes con seguimiento de estado
@@ -10,13 +10,6 @@ Un sistema completo de gestión escrito en **Go** para administrar operaciones d
 - **Gestión de Mecánicos**: Administrar personal con especialidades y disponibilidad
 - **Sistema de Plazas**: Asignar vehículos a plazas de taller con mecánicos específicos
 - **Seguimiento de Estados**: Monitorear el progreso de incidencias y vehículos en taller
-
-## 📋 Requisitos
-
-- **Go** 1.16 o superior
-- Terminal/Consola para ejecutar el programa
-
-## 🚀 Instalación y Uso
 
 ### Instalación
 
@@ -54,7 +47,7 @@ El programa utiliza un sistema de menús interactivos:
 5. **Gestión Mecánicos** - Administrar personal del taller
 6. **Salir** - Cerrar la aplicación
 
-## 🏗️ Estructura de Datos
+## Estructura de Datos
 
 ### Cliente
 ```go
@@ -113,7 +106,7 @@ type plaza struct {
 }
 ```
 
-## 💡 Guía de Uso Rápido
+## Guía de Uso Rápido
 
 ### Crear un Cliente
 1. Seleccionar opción **3** (Gestión Clientes)
@@ -142,7 +135,7 @@ type plaza struct {
 3. Ingresar detalles (tipo, prioridad, descripción)
 4. Asociar a vehículo y mecánico
 
-## 🔄 Características Avanzadas
+## Características Avanzadas
 
 ### Estados de Incidencia
 - **Abierta**: Incidencia registrada, sin comenzar
@@ -159,7 +152,7 @@ type plaza struct {
 - Eliminar vehículo libera las plazas de taller ocupadas
 - Eliminar mecánico libera sus plazas y desasigna incidencias
 
-## 📝 Variables Globales
+## Variables Globales
 
 El sistema mantiene cuatro slices globales:
 - `clientes`: Lista de todos los clientes
@@ -168,7 +161,7 @@ El sistema mantiene cuatro slices globales:
 - `mecanicos`: Lista de todos los mecánicos
 - `plazasTaller`: Plazas disponibles en el taller
 
-## 🧪 Función Demo
+##  Función Demo
 
 El código incluye una función `Demo()` que precarga datos de ejemplo:
 - 2 mecánicos (Juan Pérez - Mecánica, Ana López - Eléctrica)
@@ -192,16 +185,6 @@ Para usar la demo, descomentar `Demo()` en la función `main()`.
 - `ModificarIncidencia()`: Edita datos de incidencia
 - `ModificarMecanico()`: Edita datos del mecánico
 - `DarAltaBajaMecanico()`: Cambia estado activo/inactivo
-
-## 📌 Notas Importantes
-
-- **Gestión de Memoria**: El sistema usa punteros para evitar copias innecesarias
-- **Validación**: El sistema verifica existencia de IDs antes de operar
-- **Integridad Referencial**: Eliminar una entidad actualiza referencias en otras entidades
-- **Datos en Tiempo de Ejecución**: Los datos se almacenan en memoria durante la sesión (no persisten entre ejecuciones)
-
-
-
 ## 👤 Autor
 
 Raul Molina Looez.
