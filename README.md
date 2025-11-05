@@ -171,7 +171,7 @@ El código incluye una función `Demo()` que precarga datos de ejemplo:
 
 Para usar la demo, descomentar `Demo()` en la función `main()`.
 
-## ⚙️ Métodos Principales
+## Métodos Principales
 
 ### Cliente
 - `CrearVehiculo()`: Añade vehículo al cliente
@@ -185,6 +185,6 @@ Para usar la demo, descomentar `Demo()` en la función `main()`.
 - `ModificarIncidencia()`: Edita datos de incidencia
 - `ModificarMecanico()`: Edita datos del mecánico
 - `DarAltaBajaMecanico()`: Cambia estado activo/inactivo
-## 👤 Autor
+## Autor
 
 Raul Molina Looez.
